@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState("Irsyad" + 1)
+  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -15,7 +15,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>yeah</h1>
+      <h1>Nasmer Fonts Test</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -30,5 +30,5 @@ function App() {
     </div>
   )
 }
-
+tiem to watch that...
 export default App
