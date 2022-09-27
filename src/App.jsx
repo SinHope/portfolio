@@ -30,5 +30,5 @@ function App() {
     </div>
   )
 }
-tiem to watch that...
+
 export default App
