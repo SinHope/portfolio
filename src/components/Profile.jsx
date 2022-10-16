@@ -53,18 +53,13 @@ const Profile = [
     logo: logox5,
     title: "Contact Me",
     description: "Calling all my potential employers and parners",
-    toclickemail: <Link to="/Contactme">"Feeling shy is not going to make anything happen. Come on, let's communicate!"</Link>
+    toclickemail: "Feeling shy is not going to make anything happen. Come on, let's communicate!"
     
 }
 
 
 ];
-<Routes>
-      
-<Route path="/" />
-<Route path="/Contactme" element={<Contactme/>}  />
 
-</Routes>
 
 
 export default Profile;
