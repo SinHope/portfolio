@@ -19,6 +19,8 @@
   font-size: 100%;
 }
 
+
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -34,6 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -56,6 +60,9 @@
   margin: 4rem auto;
   max-width: 90%;
 }
+
+
+
 
 .dictionary > .profilex {
   text-align: center;
@@ -140,6 +147,7 @@ dd dl .term {
   border-radius: 25px 100px;
 }
 
+
 /* For all the different tabs */
 
 .bordertabs {
@@ -148,7 +156,7 @@ dd dl .term {
   width: 30em;
   border-radius: 25px 100px;
   font-size: 100%;
-  border-color: red;
+  border-color: red
 }
 
 @-webkit-keyframes hvr-pulse-grow {
@@ -170,9 +178,7 @@ dd dl .term {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.hvr-pulse-grow:hover,
-.hvr-pulse-grow:focus,
-.hvr-pulse-grow:active {
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
   -webkit-animation-name: hvr-pulse-grow;
   animation-name: hvr-pulse-grow;
   -webkit-animation-duration: 0.3s;
@@ -190,7 +196,7 @@ dd dl .term {
 .App {
   border-radius: 25px 1000px;
   background-color: rgb(15, 32, 16);
-  border-color: #c22e2e;
+  border-color:#c22e2e;
 }
 
 /*div {
